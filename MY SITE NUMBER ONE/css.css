@@ -1,0 +1,47 @@
+h1 {
+	background-color:black;
+	color:lime;
+                text-align:center;
+	
+}
+
+h2 {
+          
+            color:black;   /*  Робить увесь текст у заголовку h2 чорним кольором   */
+            text-allign:center;   /*  Вирівнює текст по центру  */
+            font-weight:900px;  /* Товщина тексту 100-900 пикселів  */
+            
+}
+
+#first {
+          font-size:50px;
+          font-style:italic;
+      
+}
+
+#second {
+                     font-size: 25px; 
+                     background-color:yellow;           
+                    font-style: verdana;
+ }
+
+#first {
+                                background-color:blue;
+
+}
+
+#b1 {
+                   background-color:gold;
+                     color:black;
+                   text-allign:center;
+                        font-size:100px;
+                      border:solid 10px;
+                     border-color:blue;
+}
+
+#b2 {
+                  color:black;
+                 background-color: orange;
+                  font-size:100px;
+             border:solid 10px;
+}
