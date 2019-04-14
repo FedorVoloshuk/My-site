@@ -14,10 +14,19 @@ type="text/css">
 <body>
 
 <style> 
- body {background: #c7b39b url(images/222.jpg) no-repeat;
- background-size: 100%;
-    background-position: ;} }
-    label { align-self:  }
+ body {background: black url(images/222.jpg) no-repeat;
+ background-size: 100%;}
+    form { width: 20%;
+    margin-top: 39%;
+    margin-left: 40%;
+    color: rgb(200, 105, 153);
+    background-color: rgba(0, 0, 0, 0.2); 
+    font-size: medium;
+   }
+   div { background:black;
+    ;}
+
+
 
 </style>
 
@@ -28,7 +37,7 @@ type="text/css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-<form role="form">
+<form role="form" >
  <div class="form-group">
   <label for="login">Логин</label>
   <input type="login" class="form-control" id="login" placeholder="Введите Логин">
@@ -41,7 +50,7 @@ type="text/css">
  </div>
 
  <div class="checkbox">
-  <label><input type="checkbox">Я соглашаюсь с правилами</label>
+  <label><input type="checkbox">Я соглашаюсь с <a href="Pravila.html"><strong>правилами</strong></a>.</label>
  </div>
 
  <button type="submit" class="btn btn-success">Зарегистрироватся</button>
