@@ -1,0 +1,29 @@
+
+.container 
+{
+margin-top: 1%;
+ background-color: #182733;
+ color: #A5D2E9;
+ max-width: 58%;
+font-size: 130%;
+}
+
+.center 
+{
+margin: 0 auto;
+width: 100%;
+margin-left: 25%
+}
+
+body { font-size: medium; }
+
+.navbar-light .navbar-nav > .active > a, .navbar-light .navbar-nav > .active > a:hover, .navbar-light .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #080808;
+}
+h1 { 
+bgcolor: blue;
+font-size: 25%; }
+
+
+
