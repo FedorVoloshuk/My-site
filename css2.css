@@ -1,0 +1,30 @@
+.navbar-brandFF { margin-left:200%;
+margin-top:2% }
+
+.container 
+{
+margin-top: 0.5%;
+ background-color: #182733;
+ color: #A5D2E9;
+ max-width: 50%;
+font-size: 130%;
+}
+
+.center 
+{
+margin: 0 auto;
+width: 100%;
+text-align: center;
+}
+
+body { font-size: medium; }
+
+h1 { 
+bgcolor: blue;
+font-size: 25%; }
+
+
+.back { width: 30%; }
+
+.backk { background-color: #060A09 }
+
