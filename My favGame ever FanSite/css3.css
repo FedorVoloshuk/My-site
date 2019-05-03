@@ -1,0 +1,14 @@
+ul li a {
+margin: 0;
+padding: 4px 8px;
+color:#Fa39a9;
+text-decoration:none;
+background: url(images/tet2.png);
+}
+
+ul li a:hover 
+{
+color:#Fa39a9;
+padding-bottom: 5px;
+background: url(images/tet.png);
+}

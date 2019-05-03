@@ -28,3 +28,6 @@ font-size: 25%; }
 
 .backk { background-color: #060A09 }
 
+ul li a:hover {
+background: #0FA8FA; }
+
