@@ -15,12 +15,24 @@ type="text/css">
 
 <style> 
  body {background: black url(images/444.jpg) no-repeat;
- background-size: 100%;}
+ background-size: 100%;
+font-size: medium;}
+
+  a.down {
+    background: url(images/tet2.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 640px; /* Ширина рисунка */
+    height: 183px; /*  Высота рисунка */
+    margin-top: 0;
+   }
+   a.down:hover {
+    background: url(images/tet.png); /* Путь к файлу с заменяемым рисунком  */
+   }
 
 
 
+        
 
- 
 
 </style>
 
@@ -29,10 +41,46 @@ type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+ <!-- 
+#tab { font-size: 700%;
+               font-family: fantasy;
+               color: #FA0CE1;
+              text-shadow: 0px 10px 7px pink,
+                           4px 18px 10px rgba(0, 0, 0, 0.5);
+                           text-decoration-line: overline;}
+
+ #info { margin-top: 37%; 
+        text-align: center;
+        }
+
+
+-->
 <div class="block">
 <ul>
 
-<li><a href="#"><img src="images/tet2.png"></a></li>
+<div class="col-lg-2">
+<img src="images/windows.png" width="100%" style="margin-left: 100%">  
+<a href="#" class="down"> </a>
+  </div>
+  <div class="col-lg-2">
+<img src="images/linux.png" width="83%" style="margin-left: 320%; margin-top: 0%"> 
+<a href="#" class="down" style="margin-left: 220%"> </a>
+  
+  </div>
+
+
+<!--
+<table id="tab">
+   <tr>
+     <td> 1 </td>
+     <td> 2 </td>
+     <td> 3 </td>
+   </tr>
+</table>
+-->
+<!--<div class="container" id="info" style="background: black;"> <p><h1>Системные требования</h1></p> </div> -->
+
 
 </ul>
 </div>

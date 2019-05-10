@@ -29,5 +29,28 @@ font-size: 25%; }
 .backk { background-color: #060A09 }
 
 ul li a:hover {
-background: #0FA8FA; }
+background: #0FA8FA;}
 
+h1:hover {  text-shadow: 0px 0px 12px rgba(0, 256, 0, 0.6); }
+
+h2:hover {  text-shadow: 0px 0px 12px rgba(0, 256, 0, 0.6); }
+
+.text { text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.9); }
+
+.stext { text-shadow: 0px 0px 25px #F0AC1F; 
+            text-shadow: 0px 0px 40px #F0AC1F;}
+
+.shine {  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+  border:1px solid #F0AC1F;
+  border-radius: 20px;
+}
+ 
+.shine:hover {
+  box-shadow: 0 0 155px #F0AC1F;
+  border: 1px solid #F0AC1F;
+transition: box-shadow 1s;
+}
