@@ -54,3 +54,74 @@ h2:hover {  text-shadow: 0px 0px 12px rgba(0, 256, 0, 0.6); }
   border: 1px solid #F0AC1F;
 transition: box-shadow 1s;
 }
+
+ul.dropdown-menu {  font-size: 90%; 
+                                  text-decoration: none;
+                                  border-top: 2px solid #007178;
+                                  background: rgba(0, 0, 0, 0.5);
+                                  }
+.drop  { color: #FACE01 }
+div.champ1:hover { color: red }
+div.champ2:hover { color: #673AB7 }
+div.champ3:hover { color: #FF6F00 }
+div.champ4:hover { color: lime }
+
+.da {  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+  border:1px solid red;
+  border-radius: 20px;
+}
+ 
+.da:hover {
+  box-shadow: 0 0 155px red;
+  border: 1px solid red;
+transition: box-shadow 1s;
+}
+
+.daa {  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+  border:1px solid #673AB7;
+  border-radius: 20px;
+}
+ 
+.daa:hover {
+  box-shadow: 0 0 155px #673AB7;
+  border: 1px solid #673AB7;
+transition: box-shadow 1s;
+}
+
+.ddd {  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+  border:1px solid #FF6F00;
+  border-radius: 20px;
+}
+ 
+.ddd:hover {
+  box-shadow: 0 0 155px #FF6F00;
+  border: 1px solid #FF6F00;
+transition: box-shadow 1s;
+}
+
+.sup {  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+  border:1px solid lime;
+  border-radius: 20px;
+}
+ 
+.sup:hover {
+  box-shadow: 0 0 155px lime;
+  border: 1px solid lime;
+transition: box-shadow 1s;
+}
