@@ -9,7 +9,7 @@ position: bottom;
 
 .button-wrapper {
   max-width: 500px;
-  margin: 50px auto;
+  margin: 32px auto;
   text-align: center;
   overflow: hidden;
 }
@@ -96,8 +96,19 @@ position: bottom;
 
 
 
- }
+
 
 
 .main {  bgcolor: black; }
+#123 {   }
+body{
+      background: url(images/123.jpg) no-repeat;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin: 0px;
+      padding: 0px
+      
+    }
 

@@ -17,7 +17,16 @@ width: 100%;
 text-align: center;
 }
 
-body { font-size: medium; }
+body { font-size: medium; 
+      background: url(images/333.png) no-repeat;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin: 0px;
+      padding: 0px
+      
+    }
 
 h1 { 
 bgcolor: blue;
